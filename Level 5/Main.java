@@ -1,6 +1,11 @@
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
+/**
+ * Takes in input of Customer arrival timings.
+ * Based on this input, determine what happens to the Customer
+ * and output this in terms of a series of events.
+ */
 class Main {
     public static void main(final String[] args) {
         final Scanner sc = new Scanner(System.in);
